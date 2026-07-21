@@ -8,3 +8,5 @@ marking-PiercingLowEarLMurine = Пирсинг на левое ухо мурин
 marking-PiercingLowEarRMurine = Пирсинг на правое ухо мурина снизу
 marking-PiercingTopEarLMurine = Пирсинг на левое ухо мурина сверху
 marking-PiercingTopEarRMurine = Пирсинг на правое ухо мурина сверху
+PiercingDoubleEarRAkula = Двойной пирсинг на правое ухо акулы
+PiercingDoubleEarLAkula = Двойной пирсинг на левое ухо акулы
