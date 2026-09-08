@@ -151,3 +151,25 @@
     sprite: _WL/Clothing/OuterClothing/Coats/musical.rsi
   - type: Clothing
     sprite: _WL/Clothing/OuterClothing/Coats/musical.rsi
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterCoatAppleCoat
+  name: apple coat
+  description: You can almost sit on it and have a picnic in an autumn forest.
+  components:
+  - type: Sprite
+    sprite: _WL/Clothing/OuterClothing/Coats/apple_coat.rsi
+  - type: Clothing
+    sprite: _WL/Clothing/OuterClothing/Coats/apple_coat.rsi
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterCoatGreenCoatSimple
+  name: green simple coat
+  description: Keeps you warm and cute.
+  components:
+  - type: Sprite
+    sprite: _WL/Clothing/OuterClothing/Coats/green_coat.rsi
+  - type: Clothing
+    sprite: _WL/Clothing/OuterClothing/Coats/green_coat.rsi

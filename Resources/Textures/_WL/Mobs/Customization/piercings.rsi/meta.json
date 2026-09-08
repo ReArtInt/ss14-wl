@@ -16,6 +16,14 @@
       "directions": 4
     },
 	{
+      "name": "double_ear_r_akula",
+      "directions": 4
+    },
+	{
+      "name": "double_ear_l_akula",
+      "directions": 4
+    },
+	{
       "name": "low_ear_r",
       "directions": 4
     },

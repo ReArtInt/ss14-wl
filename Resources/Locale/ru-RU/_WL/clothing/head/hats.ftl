@@ -12,3 +12,9 @@ ent-ClothingHeadhatPurpleFlowerHeadband = фиолетовый цветочны�
 
 ent-ClothingHeadhatLuckyClover = удачливый клевер
     .desc = Интересно он вырос под радугой?.. А нет, он из ткани.
+
+ent-ClothingHeadHatBlackBeretCap = чёрная кепка-берет
+    .desc = Берет это или кепка? Это оба одновременно!
+
+ent-ClothingHeadHatBrownBeretCap = коричневая кепка-берет
+    .desc = Берет это или кепка? Это оба одновременно!
