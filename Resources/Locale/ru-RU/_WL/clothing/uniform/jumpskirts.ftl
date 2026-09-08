@@ -59,7 +59,7 @@ ent-ClothingUniformJumpskirtFlowyDress = лёгкое платье
     .desc = Оно довольно простое и комфортное.
 
 ent-ClothingUniformJumpskirtForestDress = лесное платье
-    .desc = Не аккуратное, но милое.
+    .desc = Неаккуратное, но милое.
 
 ent-ClothingUniformJumpskirtShroomDress = грибное платье
     .desc = Фея наверняка такое бы носила.

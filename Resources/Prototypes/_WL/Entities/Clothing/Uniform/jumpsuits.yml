@@ -271,7 +271,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitAutumnVestShirt
-  name: vest colared shirt
+  name: vest collared shirt
   description: More cosy.
   components:
   - type: Sprite
