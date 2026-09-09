@@ -53,3 +53,17 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingOuterWizardBase
+  id: ClothingOuterWizardCyan
+  name:  cyan wizard robes
+  description: A bizarre gem-encrusted cyan robe that radiates magical energies.
+  components:
+  - type: Sprite
+    sprite: _WL/Clothing/OuterClothing/Misc/cyanwizard.rsi
+  - type: Clothing
+    sprite: _WL/Clothing/OuterClothing/Misc/cyanwizard.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon

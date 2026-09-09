@@ -192,3 +192,19 @@
     - PetWearable
     - ClothMade
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadHatWizardBase
+  id: ClothingHeadHatCyanwizard
+  name: cyan wizard hat
+  description: A strange-looking cyan hat that most certainly belongs to a powerful magic-user.
+  components:
+  - type: Sprite
+    sprite: _WL/Clothing/Head/Hats/cyanwizard.rsi
+  - type: Clothing
+    sprite: _WL/Clothing/Head/Hats/cyanwizard.rsi
+  - type: Tag
+    tags:
+    - PetWearable
+    - ClothMade
+    - WhitelistChameleon
