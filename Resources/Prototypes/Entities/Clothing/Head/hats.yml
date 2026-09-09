@@ -795,15 +795,18 @@
   name: fake wizard hat
   description: It has "WIZZARD" written across it in garish sequins. Comes with a cool beard.
   components:
+  #WL-changes-start: Emo Update 3
   - type: Sprite
-    sprite: _WL/Clothing/Head/Hats/wizard_fake.rsi #WL-changes: Emo Update 3
+    sprite: _WL/Clothing/Head/Hats/wizard_fake.rsi
   - type: Clothing
-    sprite: _WL/Clothing/Head/Hats/wizard_fake.rsi #WL-changes: Emo Update 3
-  - type: HideLayerClothing
-    layers:
-      Hair: HEAD
-      HeadTop : HEAD
-      HeadSide : HEAD
+    sprite: _WL/Clothing/Head/Hats/wizard_fake.rsi
+
+  #- type: HideLayerClothing
+  #  layers:
+  #    Hair: HEAD
+  #    HeadTop : HEAD
+  #    HeadSide : HEAD
+  #WL-changes-end: Emo Update 3
 
 - type: entity
   abstract: true
