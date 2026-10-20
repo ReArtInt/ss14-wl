@@ -122,6 +122,9 @@
         variation: 0.05
   - type: MessyDrinker
     spillChance: 0.33
+  - type: Crawler
+  - type: Puller
+  - type: Stripping
   - type: Tag
     tags:
     - CannotSuicide
@@ -129,3 +132,268 @@
   - type: StealTarget
     stealGroup:
     - AnimalGoldie
+
+- type: entity
+  name: hollie
+  parent: [SimpleMobBase, StripableInventoryBase]
+  id: MobHollie
+  suffix: WL
+  description: Almost a black hole.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _WL/Mobs/Pets/hollie.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base", "movement"]
+      state: hollie
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: hollie-moving
+    noMovementLayers:
+      movement:
+        state: hollie
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 50
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Inventory
+    speciesId: puppy
+    templateId: Corgi
+    displacements:
+      head:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_head_displacement
+      eyes:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_eyes_displacement
+      neck:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_neck_displacement
+      mask:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_mask_displacement
+      ears:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_ears_displacement
+      belt:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_belt_displacement
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: hollie
+      Critical:
+        Base: hollie_dead
+      Dead:
+        Base: hollie_dead
+  - type: Butcherable
+    spawned:
+    - id: FoodMeat
+      amount: 3
+  - type: ReplacementAccent
+    accent: dog
+  - type: InteractionPopup
+    successChance: 0.5
+    interactSuccessString: petting-success-soft-floofy
+    interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/Animals/small_dog_bark_happy.ogg
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: epicene
+  - type: Bloodstream
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    damage:
+      types:
+        Piercing: 8
+  - type: Speech
+    speechVerb: Canine
+    speechSounds: Dog
+    allowedEmotes: [ 'Bark', 'Snarl', 'Whine', 'Howl', 'Growl' ]
+  - type: TypingIndicator
+    proto: vulpkanin
+  - type: Vocal
+    emoteSounds: DogEmotes
+  - type: NightVisionEye
+    color: "#A3A3A3"
+    activateSound: /Audio/_WL/Effects/sniff.ogg
+    deactivateSound: null
+  - type: JumpAbility
+    action: ActionVulpkaninGravityJump
+    canCollide: true
+    jumpDistance: 3
+    jumpSound:
+      path: /Audio/Weapons/punchmiss.ogg
+      params:
+        pitch: 1.33
+        volume: -5
+        variation: 0.05
+  - type: MessyDrinker
+    spillChance: 0.33
+  - type: Crawler
+  - type: Puller
+  - type: Stripping
+  - type: Tag
+    tags:
+    - CannotSuicide
+    - VimPilot
+
+
+- type: entity
+  name: shep
+  parent: [SimpleMobBase, StripableInventoryBase]
+  id: MobShep
+  suffix: WL
+  description: Almost a black hole.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _WL/Mobs/Pets/shep.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base", "movement"]
+      state: shep
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: shep-moving
+    noMovementLayers:
+      movement:
+        state: shep
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 50
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Inventory
+    speciesId: puppy
+    templateId: Corgi
+    displacements:
+      head:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_head_displacement
+      eyes:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_eyes_displacement
+      neck:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_neck_displacement
+      mask:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_mask_displacement
+      ears:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_ears_displacement
+      belt:
+        sizeMaps:
+          32:
+            sprite: _WL/Mobs/Pets/displacements.rsi
+            state: goldie_belt_displacement
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: shep
+      Critical:
+        Base: shep_dead
+      Dead:
+        Base: shep_dead
+  - type: Butcherable
+    spawned:
+    - id: FoodMeat
+      amount: 3
+  - type: ReplacementAccent
+    accent: dog
+  - type: InteractionPopup
+    successChance: 0.5
+    interactSuccessString: petting-success-soft-floofy
+    interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/Animals/small_dog_bark_happy.ogg
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: epicene
+  - type: Bloodstream
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    damage:
+      types:
+        Piercing: 8
+  - type: Speech
+    speechVerb: Canine
+    speechSounds: Dog
+    allowedEmotes: [ 'Bark', 'Snarl', 'Whine', 'Howl', 'Growl' ]
+  - type: TypingIndicator
+    proto: vulpkanin
+  - type: Vocal
+    emoteSounds: DogEmotes
+  - type: NightVisionEye
+    color: "#A3A3A3"
+    activateSound: /Audio/_WL/Effects/sniff.ogg
+    deactivateSound: null
+  - type: JumpAbility
+    action: ActionVulpkaninGravityJump
+    canCollide: true
+    jumpDistance: 3
+    jumpSound:
+      path: /Audio/Weapons/punchmiss.ogg
+      params:
+        pitch: 1.33
+        volume: -5
+        variation: 0.05
+  - type: MessyDrinker
+    spillChance: 0.33
+  - type: Crawler
+  - type: Puller
+  - type: Stripping
+  - type: Tag
+    tags:
+    - CannotSuicide
+    - VimPilot

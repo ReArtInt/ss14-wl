@@ -202,3 +202,41 @@
       collection: Salutes
     Honk:
       collection: BikeHorn
+
+- type: emoteSounds
+  id: DogEmotes
+  params:
+    variation: 0.125
+  sounds:
+    Sneeze:
+      collection: VulpkaninSneeze
+    Cough:
+      path: /Audio/_WL/Voice/Vulpkanin/DogCough.ogg
+    Sigh:
+      path: /Audio/_WL/Voice/Vulpkanin/DogSigh.ogg
+    Yawn:
+      collection: VulpkaninYawns
+    Scream:
+      collection: VulpkaninScreams
+    Growl:
+      collection: VulpkaninGrowls
+    Snarl:
+      collection: VulpkaninSnarls
+    Bark:
+      collection: Bark
+    Whine:
+      path: /Audio/_WL/Voice/Vulpkanin/dog_whine.ogg
+    Crying:
+      collection: VulpkaninWhines
+    Howl:
+      collection: VulpkaninHowls
+    Weh:
+      collection: Weh
+    Hew:
+      collection: Hew
+    Honk:
+      collection: BikeHorn
+    Gasp:
+      path: /Audio/_WL/Voice/Vulpkanin/DogGasp.ogg
+    DefaultDeathgasp:
+      collection: DogDeathGasp

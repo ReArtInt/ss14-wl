@@ -11,3 +11,13 @@ dog_snarl1.ogg licensed under CC0 1.0 taken from strongbot at https://freesound.
 dog_snarl2.ogg licensed under CC0 1.0 taken from strongbot at https://freesound.org/people/strongbot/sounds/341090/
 dog_snarl3.ogg licensed under CC0 1.0 taken from strongbot at https://freesound.org/people/strongbot/sounds/341090/
 dog_whine.ogg licensed under CC SAMPLING+ 1.0 DEED taken from Sruddil at https://freesound.org/people/Sruddi1/sounds/34878/
+DogCough.ogg licensed under CC-BY-NC-SA 3.0 taken from CorvaxWL at https://github.com/corvax-team/ss14-wl
+DogDeath1.ogg licensed under CC-BY-NC-SA 3.0 taken from CorvaxWL at https://github.com
+DogDeath2.ogg licensed under CC-BY-NC-SA 3.0 taken from CorvaxWL at https://github.com/corvax-team/ss14-wl/corvax-team/ss14-wl
+DogGasp.ogg licensed under CC-BY-NC-SA 3.0 taken from CorvaxWL at https://github.com/corvax-team/ss14-wl/corvax-team/ss14-wl
+DogSigh.ogg licensed under CC-BY-NC-SA 3.0 taken from CorvaxWL at https://github.com/corvax-team/ss14-wl/corvax-team/ss14-wl
+PuppyCough.ogg licensed under CC-BY-NC-SA 3.0 taken from CorvaxWL at https://github.com/corvax-team/ss14-wl
+PuppyDeath1.ogg licensed under CC-BY-NC-SA 3.0 taken from CorvaxWL at https://github.com
+PuppyDeath2.ogg licensed under CC-BY-NC-SA 3.0 taken from CorvaxWL at https://github.com/corvax-team/ss14-wl/corvax-team/ss14-wl
+PuppyGasp.ogg licensed under CC-BY-NC-SA 3.0 taken from CorvaxWL at https://github.com/corvax-team/ss14-wl/corvax-team/ss14-wl
+PuppySigh.ogg licensed under CC-BY-NC-SA 3.0 taken from CorvaxWL at https://github.com/corvax-team/ss14-wl/corvax-team/ss14-wl

@@ -42,3 +42,13 @@
   license: "CC0-1.0"
   copyright: "Original sound by Sruddi1 at https://freesound.org/people/Sruddi1/sounds/34878/ - cleaned up, converted to ogg"
   source: "https://freesound.org/people/Sruddi1/sounds/34878/"
+
+- files: ["DogCough.ogg", "DogDeath1.ogg", "DogDeath2.ogg", "DogGasp.ogg", "DogSigh.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Sound made by ReArtInt, no dogs involved"
+  source: "https://github.com/corvax-team/ss14-wl"
+
+- files: ["PuppyCough.ogg", "PuppyDeath1.ogg", "PuppyDeath2.ogg", "PuppyGasp.ogg", "PuppySigh.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Sound made by ReArtInt, no dogs involved"
+  source: "https://github.com/corvax-team/ss14-wl"

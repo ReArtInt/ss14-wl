@@ -2,3 +2,15 @@
   id: BioroboticDeathGasp
   files:
   - /Audio/_WL/Effects/Gasp/biorobotic_deathgasp_1.ogg
+
+- type: soundCollection
+  id: DogDeathGasp
+  files:
+  - /Audio/_WL/Voice/Vulpkanin/DogDeath1.ogg
+  - /Audio/_WL/Voice/Vulpkanin/DogDeath2.ogg
+
+- type: soundCollection
+  id: PuppyDeathGasp
+  files:
+  - /Audio/_WL/Voice/Vulpkanin/PuppyDeath1.ogg
+  - /Audio/_WL/Voice/Vulpkanin/PuppyDeath2.ogg
